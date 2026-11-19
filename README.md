@@ -2,6 +2,8 @@
 
 POC qui déploie le modèle de Machine Learning du projet 4 (Random Forest, prédiction du départ d'un employé de TechNova Partners) via une API FastAPI. Chaque requête et chaque prédiction sont enregistrées dans une base PostgreSQL.
 
+Projet réalisé par Antoine CHEMAVONIAN dans le cadre du projet 5 (Déployez un modèle de Machine Learning).
+
 ## Sommaire
 1. [Architecture](#architecture)
 2. [Prérequis](#prérequis)
