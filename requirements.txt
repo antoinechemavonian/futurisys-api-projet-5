@@ -1,0 +1,9 @@
+fastapi>=0.110
+uvicorn>=0.27
+pydantic>=2.5
+sqlalchemy>=2.0
+psycopg2-binary>=2.9
+pandas>=2.1
+joblib>=1.3
+# Doit correspondre à la version utilisée pour entraîner modele_attrition.joblib
+scikit-learn==1.6.1
