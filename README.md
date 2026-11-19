@@ -42,8 +42,8 @@ flowchart LR
 ## Installation
 
 ```bash
-git clone https://github.com/antoinechemavonian/futurisys-api.git
-cd futurisys-api
+git clone https://github.com/antoinechemavonian/futurisys-api-projet-5.git
+cd futurisys-api-projet-5
 python -m venv .venv
 source .venv/bin/activate        # Windows : .venv\Scripts\activate
 pip install -r requirements-dev.txt
