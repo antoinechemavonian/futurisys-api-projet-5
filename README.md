@@ -92,7 +92,7 @@ L'API attend les **47 variables** du modèle, toutes obligatoires (voir l'exempl
 ```bash
 curl -X POST http://localhost:8000/predict \
   -H "X-API-Key: $API_KEY" -H "Content-Type: application/json" \
-  -d @exemple_employe.json
+  @data/exemple_employe.json
 ```
 
 Réponse :
