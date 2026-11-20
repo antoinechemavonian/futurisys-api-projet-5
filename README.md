@@ -154,7 +154,7 @@ Les secrets sont lus depuis *Settings → Secrets and variables → Actions* (en
 Règles recommandées sur `main` et `develop` : pull request obligatoire et job `test` vert avant fusion.
 
 ## Déploiement
-Le déploiement du POC se fait en local avec Docker Compose (voir [Lancement](#lancement)). Sur un serveur : copier `.env.example` en `.env`, renseigner de vrais secrets, lancer `docker compose up -d --build`, puis `docker compose exec api python -m scripts.create_db`. L'image publiée par la CI (`ghcr.io/<votre-compte>/<nom-du-depot>`) peut aussi être utilisée.
+Le déploiement du POC se fait en local avec Docker Compose (voir [Lancement](#lancement)). Sur un serveur : copier `.env.example` en `.env`, renseigner de vrais secrets, lancer `docker compose up -d --build`, puis `docker compose exec api python -m scripts.create_db`. L'image publiée par la CI (`ghcr.io/antoinechemavonian/futurisys-api-projet-5`) peut aussi être utilisée.
 
 ## Besoins analytiques
 Les tables `prediction_inputs` et `prediction_outputs` alimentent un futur tableau de bord RH. Indicateurs visés :
